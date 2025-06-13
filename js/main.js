@@ -1,4 +1,4 @@
-// Navbar scroll effect
+/* agregar efecto de linea roja inferior al navegar hacia abajo */
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
@@ -10,7 +10,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Smooth scroll for navigation links
+/* transicion para ir a las secciones y no sea en seco */
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();

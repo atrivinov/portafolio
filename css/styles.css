@@ -29,7 +29,6 @@ body {
     background: var(--dark-bg);
 }
 
-/* Utilidades */
 .accent {
     color: var(--accent-red);
 }
@@ -39,7 +38,6 @@ body {
     font-weight: 600;
 }
 
-/* Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -99,7 +97,6 @@ body {
     width: 100%;
 }
 
-/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -236,7 +233,6 @@ body {
     color: #FF0000;
 }
 
-/* Secciones generales */
 section {
     padding: 8rem 2rem;
 }
@@ -249,7 +245,6 @@ section h2 {
     font-weight: 700;
 }
 
-/* Sobre Mí */
 .about {
     background: var(--darker-bg);
 }
@@ -269,7 +264,6 @@ section h2 {
     font-size: 1.1rem;
 }
 
-/* Proyectos */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -362,7 +356,6 @@ section h2 {
     font-size: 0.9rem;
 }
 
-/* Habilidades */
 .skills {
     background: var(--darker-bg);
 }
@@ -407,7 +400,6 @@ section h2 {
     color: #FFD700;
 }
 
-/* Mobile Styles - Force single column layout */
 @media screen and (max-width: 768px) {
     .skills-container {
         display: flex;
@@ -452,14 +444,12 @@ section h2 {
     }
 }
 
-/* Hover effects */
 .skill-category:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 12px rgba(255, 0, 0, 0.2);
     border-color: #FF0000;
 }
 
-/* Contacto */
 .contact-content {
     max-width: 1000px;
     margin: 0 auto;
@@ -543,7 +533,6 @@ section h2 {
     color: var(--dark-bg);
 }
 
-/* Footer */
 footer {
     background: var(--darker-bg);
     color: var(--gray-text);
@@ -575,7 +564,6 @@ footer {
     transform: scale(1.1);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .nav-content {
         flex-direction: column;
@@ -616,7 +604,6 @@ footer {
     }
 }
 
-/* Responsive adjustments */
 @media screen and (max-width: 1024px) {
     .tech-stack {
         grid-template-columns: repeat(4, 1fr);
@@ -669,7 +656,6 @@ footer {
     }
 }
 
-/* Ensure smooth scrolling for the tech stack */
 .tech-stack {
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -679,7 +665,6 @@ footer {
     display: none;
 }
 
-/* Responsive Navigation */
 .menu-toggle {
     display: none;
     background: none;
@@ -717,7 +702,6 @@ footer {
     bottom: -6px;
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 1024px) {
     .hero-content {
         flex-direction: column;
@@ -881,4 +865,4 @@ html {
 
 #inicio {
     padding-top: 80px;
-} 
+}
